@@ -21,6 +21,13 @@ describe("isFive(num)", () => {
   });
 });
 
+/*
+isFive(num):
+  • Checks if a given number is equal to 5
+  • First test case checks if funcion returns 'true' when the input is 5 and 'false' otherwise
+  • Second test case checks if the function returns 'false' for inputs that are not equal to 5
+*/
+
 describe("isOdd(number)", () => {
   it("should return true if number is odd", () => {
     const num1 = 3;
@@ -61,6 +68,14 @@ describe("isOdd(number)", () => {
   });
 });
 
+/*
+isOdd(number):
+  • This test suite check the 'isOdd' function, which determines whether a number is odd or even
+  • The first test case checks if the function correctly identifies odd numbers
+  • The second test case checks if the function correctly identifies even numbers
+  • The third test case checks if the function throws an error when the input is not a number
+*/
+
 describe("myRange(min, max, step)", () => {
   context("if step is not provided", () => {
     it("should return the correct array with default value step=1", () => {
@@ -96,3 +111,10 @@ describe("myRange(min, max, step)", () => {
     });
   });
 });
+
+/*
+myRange(min, max, step):
+  • This test focuses on the 'myRange' function, which generates an array of numbers within a given range
+  • The first test context check if the function works correctly when the 'step' parameter is not provided, defaulting to 1
+  • The second test context checks if the function generates the array correctly when the 'step' parameter is provided
+*/
